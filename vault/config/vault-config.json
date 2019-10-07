@@ -2,12 +2,13 @@
   "storage":{
     "consul": {
       "address": "127.0.0.1:8500",
-      "path": "vault"
+      "path": "vault/"
     }
   },
   "backend": {
-    "file": {
-      "path": "/vault/file"
+    "consul": {
+      "address": "consul:8500",
+      "path": "vault/"
     }
   },
   "listener": {
