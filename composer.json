@@ -1,0 +1,13 @@
+{
+    "name": "bigdropinc/dotenv",
+    "description": "Configuration Service",
+    "authors": [
+        {
+            "name": "Sasha Gofman",
+            "email": "alexander@bigdropinc.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^3.6"
+    }
+}
